@@ -1,0 +1,11 @@
+sources:
+  - name: src
+    database: DB_ECOMM
+    schema: SC_ECOMM
+    tables: 
+      - name: USERS
+
+models:
+  - name: hve
+    config:
+      materialized: 'table'
