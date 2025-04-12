@@ -1,0 +1,1 @@
+SELECT * FROM {{source("snowflake source","raw_orders")}}
